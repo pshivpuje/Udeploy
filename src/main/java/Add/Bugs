@@ -42,5 +42,15 @@ public class Bugs {
 			}
 			
 			}
+			public int divide (int numerator) {
+	return numerator/0;
+}
+	public int addone (int number) {
+		return dosomethingprivate(number);
+	}
+	private int dosomethingprivate(int number) {
+	
+		return number++;
+	}
 
 }
