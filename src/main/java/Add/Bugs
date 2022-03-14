@@ -32,5 +32,15 @@ public class Bugs {
     	}
 
 	}
+	
+	public void dosomething() {
+			Integer number = null;
+			
+			if(number > 0)
+			{
+			   System.out.println("positive number");
+			}
+			
+			}
 
 }
