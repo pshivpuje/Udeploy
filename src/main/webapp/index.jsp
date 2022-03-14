@@ -24,7 +24,7 @@
 <body>
 
 <h2>Button Colors</h2>
-  <h3>Capgemini Buttons</h3>
+  
 <p>Change the background color of a button with the background-color property:</p>
 
 <button class="button">Green</button>
