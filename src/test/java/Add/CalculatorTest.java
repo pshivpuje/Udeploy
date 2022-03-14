@@ -25,12 +25,12 @@ public class CalculatorTest{
 		
 	}
 
-	@Test
+	/* @Test
 	   public void testSubPass() {
 	      assertEquals("error in sub()",  1, Calculator.sub(2, 1));
 	      assertEquals("error in sub()", -1, Calculator.sub(-2, -1));
 	      assertEquals("error in sub()",  0, Calculator.sub(2, 2));
-	   }
+	   } */
 	 
 	   @Test
 	   public void testSubFail() {
@@ -48,7 +48,7 @@ public class CalculatorTest{
 	      assertNotEquals("error in divInt()", 1, Calculator.divInt(9, 3));
 	   }
 	 
-	   @Test(expected = IllegalArgumentException.class)
+	/*   @Test(expected = IllegalArgumentException.class)
 	   public void testDivIntByZero() {
 	      Calculator.divInt(9, 0); // expect an IllegalArgumentException
 	   }
@@ -57,7 +57,7 @@ public class CalculatorTest{
 	   public void testDivRealPass() {
 	      assertEquals("error in divInt()", 0.333333, Calculator.divReal(1, 3), 1e-6);
 	      assertEquals("error in divInt()", 0.111111, Calculator.divReal(1, 9), 1e-6);
-	   }
+	   }  */
 	 
 	   @Test(expected = IllegalArgumentException.class)
 	   public void testDivRealByZero() {
