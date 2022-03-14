@@ -28,13 +28,13 @@ public class MyNumberTest {
       assertEquals("error in getter/setter", value, number1.getNumber());
    }
  
- /*  @Test
+   @Test
    public void testAdd() {
       System.out.println("Run @Test testAdd"); // for illustration
       assertEquals("error in add()", 33, number1.add(number2).getNumber());
       assertEquals("error in add()", 55, number1.add(number2).getNumber());
    }
- */
+ 
    @Test
    public void testDiv() {
       System.out.println("Run @Test testDiv"); // for illustration
@@ -42,10 +42,10 @@ public class MyNumberTest {
       assertEquals("error in div()", 0, number2.div(number1).getNumber());
    }
  
- /*  @Test(expected = IllegalArgumentException.class)
+  @Test(expected = IllegalArgumentException.class)
    public void testDivByZero() {
       System.out.println("Run @Test testDivByZero"); // for illustration
       number2.setNumber(0);
       number1.div(number2);
-   } */
+   } 
 }
