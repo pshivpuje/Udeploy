@@ -8,14 +8,14 @@ import org.junit.Test;
 public class MyNumberTest {
    private MyNumber number1, number2; // Test fixtures
  
-   @Before
+   
    public void setUp() throws Exception {
       System.out.println("Run @Before"); // for illustration
       number1 = new MyNumber(11);
       number2 = new MyNumber(22);
    }
  
-   @After
+   
    public void tearDown() throws Exception {
       System.out.println("Run @After"); // for illustration
    }
